@@ -1,0 +1,56 @@
+@import 'variables';
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+// Lists
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// Buttons
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: $font-size-small;
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+// Forms
+form {
+  margin: 0;
+  padding: 0;
+}
+
+// Inputs
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: $font-size-small;
+  border: 1px solid $secondary-color;
+  border-radius: 4px;
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid $secondary-color;
+}
